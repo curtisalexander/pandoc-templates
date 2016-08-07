@@ -56,5 +56,5 @@ make rebuild
 * Makefile
     * [Lincoln Mullen - Makefile](https://gist.github.com/lmullen/3767386)
     * [Kieran Healy - Makefile](https://github.com/kjhealy/pandoc-templates/blob/master/makefile/Makefile)
-* [pandoc-templates]
-    * [Kieran Healy - templates repo](https://github.com/kjhealy/pandoc-templates)
+* pandoc-templates
+    * [Kieran Healy pandoc-templates repo](https://github.com/kjhealy/pandoc-templates)
