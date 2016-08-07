@@ -7,8 +7,7 @@ I often write notes in Markdown using nvim in the terminal.  When needing to sha
 Running any of the commands below will convert **all** Markdown files in the directory where the Makefile resides into the respective format.
 
 ```bash
-## convert =====
-
+## convert ==========
 # convert all md files to docx
 make docx
 
@@ -21,8 +20,8 @@ make html
 # convert all md files to docx, pdf, and html
 make all
 
-## clean =====
 
+## clean ==========
 # remove all docx files
 make clean_docx
 
@@ -35,7 +34,8 @@ make clean_html
 # remove all docx, pdf, and html files
 make clean
 
-## rebuild =====
+
+## rebuild ==========
 # clean and convert all docx files
 make rebuild_docx
 
