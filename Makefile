@@ -17,6 +17,9 @@ pdf : $(PDFS)
 # *.md ==convert==> *.html
 html : $(HTMLS)
 
+# directory where css is located
+CSS_DIR := $(HOME)/.pandoc-css/buttondown.css
+
 # Actual execution
 # Remember it is target : source
 %.docx : %.md
@@ -26,7 +29,7 @@ html : $(HTMLS)
 	pandoc $< -o $@ -V geometry:"top=0.75in, bottom=0.75in, left=0.75in, right=0.75in"
 
 %.html : %.md
-	pandoc -s -S -c /Users/calex/.pandoc/buttondown.css $< -o $@
+	pandoc -s -S -c $(CSS_DIR) $< -o $@
 
 all : docx pdf html
 
