@@ -56,8 +56,10 @@ make rebuild
 ## Inspiration
 * CSS
     * [Brett Terpstra - Marked CSS files](https://github.com/ttscoff/MarkedCustomStyles)
-        * Both `Grump.css` and `github.css` are from Brett's repo.
-        * All CSS files within the repo are copyright Brett Terpstra.
+    * Specific CSS files
+        * [Grump.css](https://github.com/ttscoff/MarkedCustomStyles/blob/master/default_styles/Grump.css) - &copy Brett Terpstra
+        * [github.css](https://github.com/ttscoff/MarkedCustomStyles/blob/master/default_styles/github.css) - &copy Brett Terpstra
+        * [kult.css](https://github.com/ttscoff/MarkedCustomStyles/blob/master/kult.css) - &copy Peter Sziebig
 * Makefile
     * [Lincoln Mullen - Makefile](https://gist.github.com/lmullen/3767386)
     * [Kieran Healy - Makefile](https://github.com/kjhealy/pandoc-templates/blob/master/makefile/Makefile)

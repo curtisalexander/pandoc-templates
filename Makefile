@@ -18,7 +18,7 @@ pdf : $(PDFS)
 html : $(HTMLS)
 
 # directory where css is located
-CSS_DIR := $(HOME)/.pandoc-css/Grump.css
+CSS_DIR := $(HOME)/.pandoc-css/kult.css
 
 # Actual execution
 # Remember it is target : source
