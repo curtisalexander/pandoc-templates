@@ -52,10 +52,11 @@ make rebuild_html
 make rebuild
 
 ```
-
+## CSS
 ## Inspiration
 * CSS
     * [Ryan Gray - buttondown.css](https://gist.github.com/ryangray/1882525)
+    * [Brett Terpstra - Marked CSS files](https://github.com/ttscoff/MarkedCustomStyles) - good source of CSS files (note all are copyright [Brett Terpstra](https://github.com/ttscoff)
 * Makefile
     * [Lincoln Mullen - Makefile](https://gist.github.com/lmullen/3767386)
     * [Kieran Healy - Makefile](https://github.com/kjhealy/pandoc-templates/blob/master/makefile/Makefile)
