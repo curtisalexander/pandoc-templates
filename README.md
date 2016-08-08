@@ -5,7 +5,7 @@ Makefile and templates for converting Markdown files using Pandoc
 If creating HTML files, create a directory for CSS files.  Within the `Makefile`, update the variable `CSS_DIR` with the preferred directory.  The default directory is `$(HOME)/.pandoc-css`.
 
 ## Usage
-I often write notes in Markdown using nvim in the terminal.  When needing to share with others, I convert into docx, pdf, or standalone html.
+I often write notes in Markdown using [nvim](https://neovim.io) in the terminal.  When needing to share with others, I convert into docx, pdf, or standalone html.
 
 Running any of the commands below will convert **all** Markdown files in the directory where the Makefile resides into the respective format.
 
